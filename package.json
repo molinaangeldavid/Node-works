@@ -1,0 +1,18 @@
+{
+  "name": "multiply-table",
+  "version": "1.0.0",
+  "description": "It's a terminal node multiply table. Where you can do a multiply table with a base number and the limit, and others",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "table",
+    "multiply"
+  ],
+  "author": "David Molina",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
