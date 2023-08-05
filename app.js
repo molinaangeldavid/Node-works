@@ -3,9 +3,7 @@ const  argsv = require('./yargs/yargs')
 
 console.clear();
 
-console.log(argsv)
-
-crearTabla(argsv.b,argsv.l)
+crearTabla(argsv.b,argsv.l,argsv.h)
     .then(msg => console.log(msg))
     .catch(err => console.log(err))
 

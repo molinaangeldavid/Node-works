@@ -1,17 +1,17 @@
 const fs = require('fs')
 
-const crearTabla = (base = 5,listar = false) => {
+const crearTabla = (base = 5,listar = false, limite = 10) => {
     
 
     return new Promise( (resolve, reject) => {
         console.log("Tabla de " + base, '\n');
         let salida = '';
         
-        for(let i = 1 ; i <= 10 ;i++){
-            salida += `5 * ${i} = ${5*i}\n`;
+        for(let i = 1 ; i <= limite ;i++){
+            salida += `${base} x ${i} = ${base*i}\n`;
         }
+        
         if(listar){
-
             console.log(salida)
         }
         
